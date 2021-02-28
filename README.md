@@ -10,5 +10,5 @@ This project attempts to use DRL algorithm PPO integrated with ICM to finish too
 * After configuration of ML-Agents Toolkit, all the contents in project need to be copied to the asset directory of the Unity3D project
 * Before training or test, some configurations need to be modified in the inspector tab to control the simulation details.
 ## Demonstration
-<div align=center><img src="git@github.com:Maximilian92/T01-Tool-path-planning-on-5-axis-machining-center-using-DRL/image/Simulation scenario in Unity3D editor"></div>
-<div align=center><img src="git@github.com:Maximilian92/T01-Tool-path-planning-on-5-axis-machining-center-using-DRL/image/Demo"></div>
+<div align=center><img src="https://github.com/Maximilian92/T02-Tool-path-planning-on-5-axis-machining-center-using-DRL/blob/master/image/Simulation%20scenario%20in%20Unity3D%20editor.png"></div>
+<div align=center><img src="https://github.com/Maximilian92/T02-Tool-path-planning-on-5-axis-machining-center-using-DRL/blob/master/image/DEMO.gif"></div>
