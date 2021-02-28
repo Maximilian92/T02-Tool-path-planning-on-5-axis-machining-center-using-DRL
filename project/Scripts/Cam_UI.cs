@@ -16,7 +16,7 @@ public class Cam_UI : MonoBehaviour
 		CamUI = gameObject.GetComponent<Camera>();
 	}
 	void Start()
-    {
+	{
 		CamUI.clearFlags = CameraClearFlags.Depth;
 		CamUI.cullingMask = 1 << LayerMask.NameToLayer("UI");
 		CamUI.fieldOfView = 60;

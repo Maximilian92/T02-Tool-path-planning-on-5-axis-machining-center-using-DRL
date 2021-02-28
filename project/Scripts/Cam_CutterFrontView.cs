@@ -52,7 +52,7 @@ public class Cam_CutterFrontView : MonoBehaviour
 		AssistantTools = GameObject.Find("AssistantTools");
 	}
 	void Start()
-    {
+	{
 		biasZ = AssistantTools.GetComponent<Tool_Voxelizer>().scale;
 		cutterDiameter = Agent.GetComponent<AgentMT>().cutterDiameter;
 

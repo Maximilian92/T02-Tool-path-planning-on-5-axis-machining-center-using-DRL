@@ -68,7 +68,7 @@ public class Cam_CutterTopView : MonoBehaviour
 		MarkerCutterCollisionTopOut = GameObject.Find("MarkerCutterCollisionTopOut");
 	}
 	void Start()
-    {
+	{
 		PerModeTopView = Agent.GetComponent<AgentMT>().ProModeTopViewStr == "perspective";
 		hidingTopViewMarkerCutter = Agent.GetComponent<AgentMT>().hidingTopViewMarkerCutter;
 		hidingTopViewToCut = Agent.GetComponent<AgentMT>().hidingTopViewToCut;

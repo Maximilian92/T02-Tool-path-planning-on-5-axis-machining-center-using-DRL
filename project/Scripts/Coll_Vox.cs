@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class Coll_Vox : MonoBehaviour
 {
-    /********************* Template methods *********************/
+	/********************* Template methods *********************/
 	private void OnCollisionEnter(Collision coll)
-    {
-        if(coll.gameObject.CompareTag("translation"))
+	{
+		if(coll.gameObject.CompareTag("translation"))
 		{
 			gameObject.SetActive(false);
 		}
-    }
+	}
 }

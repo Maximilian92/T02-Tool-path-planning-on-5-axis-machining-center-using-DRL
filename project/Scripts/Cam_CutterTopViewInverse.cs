@@ -52,7 +52,7 @@ public class Cam_CutterTopViewInverse : MonoBehaviour
 		AssistantTools = GameObject.Find("AssistantTools");
 	}
 	void Start()
-    {
+	{
 		hidingTopViewToCut = Agent.GetComponent<AgentMT>().hidingTopViewToCut;
 		hidingTopViewToKeep = Agent.GetComponent<AgentMT>().hidingTopViewToKeep;
 		fieldOfViewMin = Agent.GetComponent<AgentMT>().fieldOfViewMin;

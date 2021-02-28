@@ -30,7 +30,7 @@ public class Coll_Axis : MonoBehaviour
 		episodeReward = Agent.GetComponent<AgentMT>().episodeReward;
 	}
 	void OnCollisionEnter(Collision coll)
-    {
+	{
 		if (!coll.gameObject.CompareTag("detector"))
 		{
 			collision = true;
@@ -42,11 +42,11 @@ public class Coll_Axis : MonoBehaviour
 				print(string.Format("{0} hits {1}", gameObject.name, coll.gameObject.name));
 			}
 		}
-    }
-    
+	}
+	
 	/********************* Self defined methods *********************/
 	internal void _Reset()
-    {
-        collision = false;
-    }
+	{
+		collision = false;
+	}
 }
